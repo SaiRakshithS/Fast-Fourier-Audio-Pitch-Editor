@@ -3,9 +3,9 @@
 
 #include <iostream>
 
-int main() {
+int main(int argc, char* argv[]) {
 
-    FILE* file = fopen("sound.wav", "rb");
+    FILE* file = fopen("argv[1]", "rb");
 
     if ( !file ) {
 
