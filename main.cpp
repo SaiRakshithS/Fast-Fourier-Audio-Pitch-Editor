@@ -5,7 +5,7 @@
 
 int main(int argc, char* argv[]) {
 
-    FILE* file = fopen("argv[1]", "rb");
+    FILE* file = fopen(argv[1], "rb");
 
     if ( !file ) {
 
